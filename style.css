@@ -1,0 +1,57 @@
+body {
+    color:#5bc0de;
+    font-family: "Poppins",sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: #EFEFEF;
+    padding-top:10px; 
+    padding-bottom: 5px;
+}
+header h1{
+    font-size:2em;
+    font-weight:bold;
+    padding-top: 10px;
+}
+
+header h1,
+header p{
+    text-align: center;
+}
+
+header p{
+    font-size: 1em;
+}
+
+.form-horizontal input{
+    margin: 15px auto;
+    width: 30%;
+    height:20px;
+}
+.container-fluid{
+    margin-left: 30px;
+}
+
+.btn{
+    color: #fff;
+    background-color: #5bc0de;
+    border-bottom: 5px solid #4896ad;
+    width: 15%;
+    height: 40px;
+    margin-left: 15px;
+  }
+.btn:active {
+    margin-top: 3px;
+    color: #fff;
+    background: #5bc0de;
+    border-bottom: 2px solid #4896ad;
+  }
+
+
+
+#googleMap{
+    width: 80%;
+    height: 400px;
+    margin: 20px auto;
+}
