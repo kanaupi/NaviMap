@@ -24,7 +24,7 @@ header p{
     font-size: 1em;
 }
 
-.form-horizontal input{
+.form-control{
     margin: 15px auto;
     width: 30%;
     height:20px;
@@ -40,6 +40,7 @@ header p{
     width: 15%;
     height: 40px;
     margin-left: 15px;
+    border-radius: 10px;
   }
 .btn:active {
     margin-top: 3px;
@@ -47,9 +48,25 @@ header p{
     background: #5bc0de;
     border-bottom: 2px solid #4896ad;
   }
+ 
+.via-btn {
+    font-family: "Meiryo",sans-serif;
+    width: 15%;
+    height: 30px;
+    border: 1px solid #ccc;
+    background: #fff;
+    border-radius: 5px;
+    padding: 0;
+    margin: 0;
+}
+.addBtn{
+    margin-left: 15px;
+}
 
 
-
+#via-group{
+    height: 150px;
+}
 #googleMap{
     width: 80%;
     height: 400px;

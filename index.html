@@ -25,12 +25,15 @@
 
                     </span>
                 </div>
-
+                <div class="form-group">
+                    <div id="via-group"></div>
+                    <button  onclick="return addVia();" class="via-btn addBtn">追加</button>
+                </div>
                 <div class="form-group">
                     <label for="to" class="col-xs-2 controll label"><i class="fas fa-map-marker-alt"></i></label>
                     <span class="col-xs-4">
                         <input type="text" id="to" placeholder="Destination" class="form-control">
-                        
+
                     </span>
                 </div>
             </form>
@@ -51,7 +54,8 @@
 
     <script src="https://maps.googleapis.com/maps/api/js?language=ja&region=JP&key=
     AIzaSyDBxRvU_WwiKVeiolUmcIi4oAEYiPj2xl0&libraries=places"></script>
-
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
+    </script>
     <script src="app.js"></script>
 </body>
 </html>
